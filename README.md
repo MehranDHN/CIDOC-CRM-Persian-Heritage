@@ -25,40 +25,33 @@ The aim is to make CRM modelling approachable, culturally relevant, and immediat
 
 ## Learning Path
 
-The materials are organised as a guided path rather than a flat collection of examples.
+The materials are organised as a progressive path. Start here:
 
-| Stage | Topic | Goal |
-|-------|-------|------|
-| **1** | Object-oriented & event-based foundations | Understand persistent identity, classes, properties, and why events are central |
-| **2** | Core Persian heritage patterns | Model manuscripts, architecture, historical actors, and iconography |
-| **3** | Controlled vocabularies | Apply AAT, TGN, Iconclass, and Wikidata systematically |
-| **4** | Internet Archive + IIIF | Reference existing materials and contribute new ones with ontology-based descriptions |
-| **5** | From examples to practice | Reusable Turtle patterns, queries, and contribution workflows |
+| # | Document | Focus |
+|---|----------|-------|
+| **1** | [Object-Oriented and Event-Based Foundations](learning-path/01-object-oriented-and-event-based.md) | Persistent identity, why the CRM is event-centric, relation to Getty CONA/GVP and CRMdig |
+| **2** | [Core Persian Heritage Patterns](learning-path/02-core-persian-examples.md) | Reusable patterns for manuscripts, architecture, persons, and iconography |
+| **3** | [Controlled Vocabularies and Linked Data](learning-path/03-controlled-vocabularies.md) | AAT, TGN, Iconclass, Wikidata, CONA — and how they create Linked Data links |
+| **4** | [Internet Archive and IIIF](learning-path/04-internet-archive-and-iiif.md) | Using IA + IIIF as a participation layer for digital surrogates |
+| **5** | [From Examples to Practice](learning-path/05-from-examples-to-practice.md) | Minimal Turtle patterns, SPARQL starters, and contribution checklist |
+
+Each section can be read independently, but they are designed to be followed in order. Concrete examples drawn from related repositories will be added over time.
 
 ## Repository Structure
 
 ```
-Learn-CIDOC-CRM-Persian/
+CIDOC-CRM-Persian-Heritage/
 ├── README.md
 ├── learning-path/
 │   ├── 01-object-oriented-and-event-based.md
 │   ├── 02-core-persian-examples.md
-│   └── 03-controlled-vocabularies.md
+│   ├── 03-controlled-vocabularies.md
+│   ├── 04-internet-archive-and-iiif.md
+│   └── 05-from-examples-to-practice.md
 ├── examples/
-│   ├── manuscript-page/
-│   ├── architectural-object/
-│   ├── historical-event/
-│   └── iconography-iconclass/
 ├── controlled-vocabularies/
-│   ├── aat-patterns.md
-│   ├── tgn-patterns.md
-│   ├── iconclass-patterns.md
-│   └── wikidata-alignment.md
 ├── internet-archive-iiif/
-│   ├── ia-iiif-basics.md
-│   └── contribution-workflow.md
 ├── turtle/
-│   └── (ready-to-use .ttl examples)
 └── queries/
 ```
 
@@ -91,11 +84,10 @@ See the `internet-archive-iiif/` directory for details.
 
 ## Quick Start
 
-1. Read `learning-path/01-object-oriented-and-event-based.md`.
-2. Examine one complete example in `examples/` (recommended: manuscript page).
-3. Study the corresponding Turtle in `turtle/`.
-4. Review the controlled vocabulary patterns.
-5. Try the Internet Archive contribution workflow if you have material to add.
+1. Begin with [01 – Object-Oriented and Event-Based Foundations](learning-path/01-object-oriented-and-event-based.md).
+2. Continue through the learning path in order (documents 02–05).
+3. When ready, examine examples in the `examples/` and `turtle/` directories (added over time from related repositories).
+4. Use the contribution checklist in document 05 if you wish to add material.
 
 ## Contributing
 
